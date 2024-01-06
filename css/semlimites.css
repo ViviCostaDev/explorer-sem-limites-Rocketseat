@@ -1,0 +1,527 @@
+* {
+    padding: 0%;
+    margin: 0%;
+
+}
+
+
+
+::-webkit-scrollbar {
+    overflow: hidden;
+}
+
+
+.semlimites {
+    width: 90rem;
+    height: 52.25rem;
+    background: linear-gradient(180deg, #B52184, #000000, #F9F4FB, #312D64);
+    margin-left: auto;
+    margin-right: auto;
+    column-count: 2;
+    display: flexbox;
+
+}
+
+h1 {
+    font-size: 3.64rem;
+    width: auto;
+    text-align: left;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 900;
+    color: #B52184;
+     position: sticky;
+    align-items: center;
+    margin-left: -90%;
+    padding-top: 50%;
+}
+
+h4 {
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+    font-size: 2rem;
+    color: #312D64;
+    height: auto;
+    text-align: left;
+     margin-left: -87%;
+   
+}
+
+.group {
+    justify-content: left;
+      margin: 10% -55% auto;
+    display: block;
+    width: 3.66rem;
+    height: 6.56rem;
+}
+
+.astronaut {
+    width: 44.96rem;
+    height: 45.77rem;
+    justify-content: right;
+    position: sticky;
+    margin-left: 95%;
+    animation-name: astronaut;
+    animation-duration: 5s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: calc(5s);
+
+}
+
+.section-two {
+    width: 90rem;
+    height: 36rem;
+    background-color: #343193;
+    margin-left: auto;
+    margin-right: auto;
+    column-count: 3;
+    font-family: 'Mulish', sans-serif;
+}
+
+.card-primeiro{
+    width: 76.rem;
+    height: 28rem;
+    background-color: #fff;
+    margin: 4rem 6rem 4rem 5rem;
+
+    float: left;
+    border-radius: 2rem;
+    padding: 0% 2rem 0% 2rem
+}
+
+.card {
+    width: 76.rem;
+    height: 28rem;
+    background-color: #fff;
+    margin: 4rem 6rem 4rem 3.5rem;
+
+    float: left;
+    border-radius: 2rem;
+    padding: 0% 2rem 0% 2rem;
+
+}
+
+.card-ultimo{
+    width: 76.rem;
+    height: 28rem;
+    background-color: #fff;
+    margin: 4rem 4rem 4rem 1.5rem;
+    float: left;
+    border-radius: 2rem;
+    padding: 0% 2rem 0% 2rem  
+}
+.card-img-top {
+    margin: 2rem 2rem 2rem 2rem;
+}
+
+strong {
+    color: #B52184;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+    font-size: 2.18rem;
+}
+
+.card-text {
+    margin-top: 1rem;
+    word-spacing: 1.5;
+    text-align: justify;
+}
+
+.formulario {
+    width: 90rem;
+    height: 38.25rem;
+    background-color: #e4d5df;
+    margin-left: auto;
+    margin-right: auto;
+    column-count: 2;
+
+}
+
+fieldset {
+    margin: 5.2rem 6rem 5.9rem 6rem;
+    width: 37rem;
+    height: 26.8rem;
+    text-align: left;
+    justify-content: left;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 900;
+    border: none;
+}
+
+legend {
+    margin: 1rem;
+    color: #B52184;
+    font-size: 2.3rem;
+}
+
+#at {
+    margin-top: -50px;
+    margin-left: 20px;
+    float: left;
+    overflow: hidden;
+}
+
+.bi-person-fill {
+    width: 2rem;
+    height: 2rem;
+    margin: -53px;
+    position: absolute;
+    margin-left: 17px;
+    color: #B52184;
+}
+
+.email {
+    color: #B52184;
+    width: 2rem;
+    height: 2rem;
+    margin: -51px;
+    position: absolute;
+    margin-left: 1.2rem;
+    font-weight: bold;
+}
+
+input,
+textarea {
+    display: block;
+    width: 37rem;
+    padding: 0.75rem 1rem 0.75rem 0.87rem;
+    flex-direction: column;
+    margin: 1rem;
+    color: #312D64;
+    border-radius: 16px;
+    border: solid 1px #312D64;
+    resize: none;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+    font-size: 1rem;
+}
+
+::-webkit-input-placeholder {
+
+    color: #312D64;
+    padding-left: 2rem;
+}
+
+:-moz-placeholder {
+    margin-left: 10px;
+    color: #312D64;
+    padding-left: 2rem;
+}
+
+:-ms-input-placeholder {
+    color: #312D64;
+    padding-left: 2rem;
+}
+
+button {
+    height: 2.8rem;
+    margin: 1rem;
+    font-family: 'Mulish', sans-serif;
+    font-weight: bold;
+    font-size: 0.87rem;
+    background-color: #343193;
+    color: #fff;
+    border-radius: 16px;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.estrelinha {
+    justify-content: right;
+    margin-left: 9.5%;
+}
+
+footer {
+    background-color: #343193;
+    width: 90rem;
+    height: 4.8rem;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+
+.paragraf {
+    height: auto;
+    width: auto;
+    font-family: 'Mulish', sans-serif;
+    font-weight: 600;
+    font-size: 1.21rem;
+    color: #fff;
+    padding-top: 2rem;
+}
+
+
+
+
+
+@keyframes astronaut {
+    0% {
+        transform: translateX(0px);
+    }
+
+    50% {
+        transform: translateY(100px);
+    }
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+
+    body {
+        overflow: scroll;
+        display: block;
+    }
+
+    ::-webkit-scrollbar {
+        overflow: hidden;
+    }
+
+    .semlimites {
+        width: 430px;
+        height: 679px;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        background: linear-gradient(180deg, #B52184, #000000, #F9F4FB, #312D64);
+        column-count: 1;
+    }
+
+    .astronaut {
+        width: 364px;
+        height: 370px;
+        justify-content: center;
+        margin-left: 34px;
+        margin-right: auto;
+    }
+
+
+    h1 {
+        font-size: 32px;
+        width: auto;
+        height: auto;
+        text-align: center;
+        font-family: 'Mulish', sans-serif;
+        font-weight: 900;
+        color: #B52184;
+        margin-top: 17px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    h4 {
+        font-family: 'Mulish', sans-serif;
+        font-weight: 600;
+        font-size: 20px;
+        color: #312D64;
+        height: auto;
+        text-align: center;
+        margin-left: auto;
+        margin-right: auto;
+
+    }
+
+
+    .group {
+        justify-content: center;
+        margin-right: auto;
+        margin-left: 186px;
+        align-items: center;
+        margin-top: 30px;
+        width: 59px;
+        height: 105px;
+    }
+
+    .section-two {
+        column-count: 1;
+        width: 430px;
+        height: 1242px;
+        justify-content: center;
+        margin-left: auto;
+        margin-right: auto;
+        background-color: rgb(9, 44, 44);
+        display: block;
+        font-family: 'Mulish', sans-serif;
+        padding-top: 52.97px;
+        padding-bottom: 52.97px;
+    }
+
+
+    .card {
+        width: auto;
+        height: auto;
+        background: linear-gradient(180deg, #B52184, #000000, #F9F4FB, #312D64);
+        margin-left: 45px;
+        margin-right: 45px;
+        float: left;
+        border-radius: 2rem;
+        margin-top: -19px;
+        padding-bottom: 26.49px;
+    }
+
+    .card-img-top {
+        width: 80px;
+        height: 80px;
+        margin-bottom: 33.11px;
+        margin-top: 26.49px;
+        margin-left: 26.49px;
+    }
+
+
+    strong {
+        margin-left: 26.49px;
+        color: #B52184;
+        font-family: 'Mulish', sans-serif;
+        font-weight: 600;
+        font-size: 29.22px;
+
+    }
+
+    .card-text {
+
+        word-spacing: 1.5;
+        text-align: justify;
+        font-size: 16px;
+        font-weight: 600;
+        padding-left: 26.49px;
+
+    }
+
+
+    .formulario {
+        width: 430px;
+        height: 679px;
+        background: linear-gradient(180deg, #B52184, #000000, #F9F4FB, #312D64);
+        margin-left: auto;
+        margin-right: auto;
+        column-count: 1;
+        display: block;
+    }
+
+
+    fieldset {
+        margin: 60px auto 60px auto;
+        width: auto;
+        height: auto;
+        font-family: 'Mulish', sans-serif;
+
+    }
+
+    legend {
+        text-align: left;
+        margin-left: 26.49px;
+        color: #B52184;
+        font-size: 32px;
+        width: 272px;
+        height: 40px;
+        font-weight: 900;
+        font-family: 'Mulish', sans-serif;
+        margin-bottom: 24px;
+    }
+
+
+    input,
+    textarea {
+        display: block;
+        width: 348px;
+        padding: 12px 16px 12px 14px;
+        margin-left: 26.49px;
+        margin-right: 26.49px;
+        color: #312D64;
+        border-radius: 16px;
+        border: solid 1px #312D64;
+        resize: none;
+        font-family: 'Mulish', sans-serif;
+        font-weight: 600;
+        font-size: 1rem;
+    }
+
+    input {
+        margin-top: 26.49px;
+    }
+
+    textarea {
+        margin-top: 26.49px;
+        margin-bottom: 26.49px;
+    }
+
+    button {
+        padding-top: 12px;
+        padding-bottom: 16px;
+        font-family: 'Mulish', sans-serif;
+        font-weight: bold;
+        font-size: 0.87rem;
+        background-color: #343193;
+        color: #fff;
+        border-radius: 16px;
+        padding-left: 16px;
+        padding-right: 16px;
+    }
+
+
+    .estrelinha {
+        display: none;
+    }
+
+
+    #at {
+        margin-top: -50px;
+        margin-left: 20px;
+        float: left;
+        overflow: hidden;
+    }
+
+    .bi-person-fill {
+        width: 19.5px;
+        height: 21px;
+
+        position: absolute;
+        margin-left: 40px;
+        color: #B52184;
+    }
+
+    .email {
+        color: #B52184;
+        width: 24px;
+        height: 24px;
+        margin-left: 40px;
+        position: absolute;
+
+        font-weight: bold;
+    }
+
+    footer {
+        background-color: #343193;
+        width: 432px;
+        height: 78px;
+        margin-left: auto;
+        margin-right: auto;
+        text-align: center;
+    }
+
+    .paragraf {
+        height: auto;
+        width: auto;
+        font-family: 'Mulish', sans-serif;
+        font-weight: 600;
+        font-size: 1.21rem;
+        color: #fff;
+        padding-top: 2rem;
+    }
+
+    ::-webkit-input-placeholder {
+
+        color: #312D64;
+        padding-left: 2rem;
+    }
+
+    :-moz-placeholder {
+        margin-left: 10px;
+        color: #312D64;
+        padding-left: 2rem;
+    }
+
+    :-ms-input-placeholder {
+        color: #312D64;
+        padding-left: 2rem;
+    }
+
+
+}
